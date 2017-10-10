@@ -1,0 +1,12 @@
+{
+    "name": "DevOps",
+    "version": "1.0.0",
+    "description": "This package contains DevOps automation for deployment and testing",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "validate": "aws cloudformation validate-template --template-body file://./cloudformation.yml"
+    },
+    "author": "",
+    "license": "ISC"
+}
